@@ -1,7 +1,10 @@
-#  About TextFile-Processor
-The TextFile-Processor is a web application that processes files containing text. The user should upload a file from his or her browser to the server and then be presented with the processed text. In the processed text the application should surround every occurrence of the most used word with foo and bar.
+# Answers to Questions
+1. # How long time did you end up spending on this coding test?    
+I spent around 12 hours on this coding test.
 
-#  Why I choose ASP.NET Core:
+2.	# Explain why you chose the code structure(s) you used in your solution.   
+
+**Why I choose ASP.NET Core:**  
 ASP.NET Core is the open-source version of ASP.NET, and can be used to create robust web applications.  It can run on macOS, Linux, and Windows. It incorporates ‘Client-side development, hence integrates seamlessly with popular client-side frameworks and libraries, including Blazor, Angular, React, and Bootstrap.  
 Below are the advantages of using ASP.NET Core to develop web application:
 1.	Improved collaboration and cross-platform support. A unified story for building web UI and web APIs.
@@ -32,12 +35,15 @@ MVC-based apps contain:
 
 In an MVC app, the view only displays information; the controller handles and responds to user input and interaction. For example, the controller handles route data and query-string values, and passes these values to the model. The model might use these values to query the database
 
-# Answers to Questions
-1.	**How long time did you end up spending on this coding test?**  
-I spent around 12 hours on this coding test.
-2.	**Explain why you chose the code structure(s) you used in your solution.**  
-I read all text words from the file and store it in a string array variable to enable me easily query it using Linq. To get the most used word can be achieved in several ways. I found using LINQ in .Net Framework faster and easier since I have already store all the words in a collection. Using Linq, I can easily query and manipulate each string in the array.  
-3.	**What would you add to your solution if you had more time? This question is especially important if you did not spend much time on the coding test - use this as an opportunity to explain what your solution is missing.**  
+**I used LINQ to implement foo and bar**   
+I read all text words from the file and store it in a string array variable to enable me easily query it using Linq. To get the most used word can be achieved in several ways. I found using LINQ in .Net Framework faster and easier since I have already store all the words in a collection. Using Linq, I can easily query and manipulate each string in the array.
+
+3.	# What would you add to your solution if you had more time?  
+**This question is especially important if you did not spend much time on the coding test - use this as an opportunity to explain what your solution is missing.**  
 Enough time was provided for the coding test, and I believe nothing is missing in the solution.
-4.	**What did you think of this recruitment test?**  
+
+4.	# What did you think of this recruitment test?   
 I think that this recruitment test gives the candidates an opportunity to demonstrate their coding skills. It will test the candidate’s problem-solving ability. It will enable the recruiter understand how a candidate think through a problem. It tests the capability of candidates in technical decision making and the reasons behind taking such decisions. For instance, why the candidates choose a particular technology, and why they design things the way they do. Generally, I can say that the recruitment test is fun but a realistic work sample project.
+
+
+
